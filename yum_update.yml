@@ -5,6 +5,6 @@
   tasks:
   - name: latest Packages Update
     yum:
-      name: *
+      name: '*'
       state: latest
 
