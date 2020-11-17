@@ -1,0 +1,10 @@
+---
+- name: Apache server installed
+  hosts: all
+
+  tasks:
+  - name: latest Packages Update
+    yum:
+      name: '*'
+      state: latest
+
